@@ -1,0 +1,88 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Producto 1",
+      "precio": 300,
+      "imagen": "/imagenes/movil1.jpg",
+      "oferta": "true",
+      "comentarios": [
+        {
+          "estrellas": 5,
+          "comentario": "Producto funciona perfectamente, envío perfecto",
+          "autor": "Juan García",
+          "fecha": "2017-10-16T12:32:23.126094Z"
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Vicent",
+      "nombreUsuario": "raulabio",
+      "apellidos": "Garcia Lopez",
+      "correo": "vicent.tecnico@empresa.com",
+      "telefono": 654321987,
+      "password": "raulabio",
+      "rol": "tecnico",
+      "imagen": "/imagenes/tecnico.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Raúl",
+      "nombreUsuario": "raulcliente",
+      "apellidos": "Pérez López",
+      "correo": "raul.cliente@empresa.com",
+      "telefono": 654321123,
+      "password": "raulcliente",
+      "rol": "cliente",
+      "imagen": "/imagenes/cliente.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Fran",
+      "nombreUsuario": "franmantenimiento1",
+      "apellidos": "Gomez Fernandez",
+      "correo": "fran.mantenimiento1@empresa.com",
+      "telefono": 654321456,
+      "password": "franmantenimiento1",
+      "rol": "mantenimiento",
+      "imagen": "/imagenes/mantenimiento.png"
+    }
+  ],
+  "incidencias": [
+    {
+      "id_inc": 1,
+      "estado": "Asignada",
+      "descripcion": "La bicicleta no se puede desbloquear desde la aplicación.",
+      "ubicacion_bici": "Estación 5, Madrid",
+      "situacion": "Bloqueada en estación",
+      "tecnico_id": 101
+    },
+    {
+      "id_inc": 2,
+      "estado": "En proceso",
+      "descripcion": "Bicicleta con rueda trasera pinchada.",
+      "ubicacion_bici": "Estación 12, Barcelona",
+      "situacion": "En transito",
+      "tecnico_id": 102
+    },
+    {
+      "id_inc": 3,
+      "estado": "Esperando repuestos",
+      "descripcion": "Problema con los frenos detectado.",
+      "ubicacion_bici": "Estación 7, Valencia",
+      "situacion": "Bloqueada en estación",
+      "tecnico_id": 103
+    },
+    {
+      "id_inc": 4,
+      "estado": "Completada",
+      "descripcion": "Cambio de pedal roto.",
+      "ubicacion_bici": "Estación 20, Sevilla",
+      "situacion": "En transito",
+      "tecnico_id": 104
+    }
+  ]
+}
