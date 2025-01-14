@@ -96,4 +96,10 @@ public class UsuarioServiceDictionaryImpl implements UsuarioService {
                 })
                 .collect(Collectors.toList());
     }
+ /// ajuste para Obtener usuario
+    @Override
+    public Usuario obtenerUsuario(int userId) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'obtenerUsuario'");
+    }
 }

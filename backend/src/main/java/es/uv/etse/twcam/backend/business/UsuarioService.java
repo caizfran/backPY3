@@ -42,4 +42,6 @@ public interface UsuarioService {
      * @return Lista de usuarios que tienen el rol de técnico o mantenimiento.
      */
     List<Usuario> listarPorTrabajadores();
+
+    Usuario obtenerUsuario(int userId);
 }
